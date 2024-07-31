@@ -1,8 +1,9 @@
 # audio_analysis
 a python script to analyze all flacs within a folder such as sample rate, bit, true peak lvl, loudness range, file integrity etc.
 
-here's an example of what the script shows when running it in a folder with 3.flacs:
+EDIT: just created an .exe file. check latest release
 
+here's an example of what the script shows when running it in a folder with 3.flacs:
 
 ``` type: audioinfo
 version: 1
@@ -58,9 +59,6 @@ Track: styx 2022-06-14 kansas city - cmc-25 t09 stage chatter.flac
   Integrated Loudness: -27.3 LUFS
   Loudness Range (LRA): 9.8 LU
   Channel Layout: Multi-channel
-  File Integrity: OK
+  File Integrity: OK ```
 
-
-!!!UPDATE!!!!!!!!
-created a exe file so you dont need all the dependencies. just download the .exe file and place it in the folder with the flac files. 
 
