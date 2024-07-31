@@ -1,11 +1,10 @@
 # audio_analysis
 a python script to analyze all flacs within a folder such as sample rate, bit, true peak lvl, loudness range, file integrity etc.
 
-EDIT: just created an .exe file. check latest release
-
 here's an example of what the script shows when running it in a folder with 3.flacs:
 
-``` type: audioinfo
+
+type: audioinfo
 version: 1
 
 summary:
@@ -59,6 +58,64 @@ Track: styx 2022-06-14 kansas city - cmc-25 t09 stage chatter.flac
   Integrated Loudness: -27.3 LUFS
   Loudness Range (LRA): 9.8 LU
   Channel Layout: Multi-channel
-  File Integrity: OK ```
+  File Integrity: OK
 
+
+
+
+v2.
+
+type: audioinfo
+version: 1
+
+summary:
+  total_files: 2
+  total_duration: 0:06:49
+  sample_rate: 44100 Hz
+  bit_depth: 16 bits
+  channels: 2
+
+track_details:
+Track: 01 Moody Jam.flac
+  Format: FLAC
+  Format/Info: Lossless FLAC Audio Codec
+  Duration: 0:05:05
+  Bit rate mode: Variable
+  Bit rate: 950k
+  Channel(s): 2 channels
+  Channel layout: Multi-channel
+  Sampling rate: 44100 Hz
+  Bit depth: 16 bits
+  Compression mode: Lossless
+  Stream size: 34.6 MB
+  Writing library: Unknown
+  MD5 of the unencoded content: 8b8c46d6a1f411feda261a516a952ea3
+  CRC32: B22761F6
+  Integrated Loudness: -12.5 LUFS
+  LRA: 5.4 LU
+  True Peak Level: 0.7 dB
+  File Integrity: Yes
+
+Track: 02 Jim's Song.flac
+  Format: FLAC
+  Format/Info: Lossless FLAC Audio Codec
+  Duration: 0:01:44
+  Bit rate mode: Variable
+  Bit rate: 873k
+  Channel(s): 2 channels
+  Channel layout: Multi-channel
+  Sampling rate: 44100 Hz
+  Bit depth: 16 bits
+  Compression mode: Lossless
+  Stream size: 10.9 MB
+  Writing library: Unknown
+  MD5 of the unencoded content: e80d3b410321010dcaca8eccbe5381b2
+  CRC32: B8E6870C
+  Integrated Loudness: -14.8 LUFS
+  LRA: 7.8 LU
+  True Peak Level: 0.5 dB
+  File Integrity: Yes
+
+
+standalone exe and script 
 
