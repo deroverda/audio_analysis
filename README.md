@@ -58,8 +58,9 @@ Track: styx 2022-06-14 kansas city - cmc-25 t09 stage chatter.flac
   Integrated Loudness: -27.3 LUFS
   Loudness Range (LRA): 9.8 LU
   Channel Layout: Multi-channel
-  File Integrity: OK``` 
+  File Integrity: OK
+
 
 !!!UPDATE!!!!!!!!
-created a exe file so you dont need all the dependencies. just download the .exe file and place it in the folder with the flac files.
+created a exe file so you dont need all the dependencies. just download the .exe file and place it in the folder with the flac files. 
 
